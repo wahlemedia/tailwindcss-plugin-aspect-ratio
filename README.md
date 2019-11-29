@@ -39,7 +39,7 @@ You can pass the following options into this plugin
 | ---- | ----| --- |
 | `full` | `false` |  Generates a helper component see the section below |
 | `className` | ratio |  The default name of all classes |
-| `ratioValues` | `{...}` | It generates all percent base padding bottoms. See Tailwind dokumentation  | 
+| `ratioValues` | `{...}` | It generates all percent base padding bottoms. See example at the [Tailwind documentation for width](https://tailwindcss.com/docs/width)  | 
 
 
 ## Classic approach
