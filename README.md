@@ -1,6 +1,6 @@
 ## Tailwindcss Plugin: aspect ratio
 
-This plugin add add helper to keep an aspect ratio of an image
+This plugin add helper classes to keep the aspect ratio of an image.
 
 Inspired by Adams Wathan's [Fixed Aspect Ratio](https://tailwindcss.com/course/locking-images-to-a-fixed-aspect-ratio) 
 TailwindCSS tutorial
@@ -8,13 +8,14 @@ TailwindCSS tutorial
 
 ## Installation 
 Add this plugin to your project
+
 ```
   npm install tailwindcss-plugin-aspect-ratio --save-dev
 ```
 
 ## Usage
 
-Here is an example how to add this plugin to your project
+Here is an exampl one how to add this plugin to your project
 
 ```
 // tailwind.config.js
@@ -33,18 +34,18 @@ module.exports = {
 
 ## Options
 
-You can pass the following options into this plugin
+You can pass additional options to this  plugin
 
 |  Name  |  default | Description | 
 | ---- | ----| --- |
-| `full` | `false` |  Generates a helper component see the section below |
-| `className` | ratio |  The default name of all classes |
-| `ratioValues` | `{...}` | It generates all percent base padding bottoms. See example at the [Tailwind documentation for width](https://tailwindcss.com/docs/width)  | 
+| `full` | `false` |  Generates a helper component. (see the section below) |
+| `className` | ratio |  The default name of the generated classes |
+| `ratioValues` | `{...}` | It generates all percent base padding bottoms. See all the values and examples at the [Tailwindcss documentation for width](https://tailwindcss.com/docs/width)  | 
 
 
 ## Classic approach
 
-The classic css trickery is as follow
+The classic css approach is as follow
 
 ```html
 <div class="relative" style="padding-bottom: 66.66%">
@@ -54,6 +55,8 @@ The classic css trickery is as follow
 
 ## Plugin Example
 
+The default configuration genearats the `apsect-*` helper classes
+
 ```html
 <div class="relative aspect-2/3">
     <img class="absolute h-full w-full object-cover" src="#" alt="#" />
@@ -61,9 +64,9 @@ The classic css trickery is as follow
 ```
 
 
-## add Helping component
-If you set in the config file the `full` to `true`, it gives 
-your an extra `aspect` property to shorten the configuration.
+## add additional css helper component
+If you set the `full` property of the configuration to `true`, it gives 
+your an extra `aspect` property that you can apply to your html tag.
 
 ```scss
 .aspect {
@@ -86,6 +89,7 @@ your an extra `aspect` property to shorten the configuration.
 
 ## Testing
 To run the tests
+
 ```
 npm run test
 ```
