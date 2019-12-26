@@ -1,6 +1,13 @@
 ## Tailwindcss Plugin: aspect ratio
 
+<<<<<<< HEAD
 This plugin add helper classes to keep the aspect ratio of an image.
+=======
+[![Actions Status](https://github.com/wahlemedia/tailwindcss-plugin-aspect-ratio/workflows/CI/badge.svg)](https://github.com/wahlemedia/tailwindcss-plugin-aspect-ratio/actions)
+
+
+This plugin add helper classes to keep an aspect ratio of an image
+>>>>>>> 4570ba3f7750d53512511c10b0c8750db3085713
 
 Inspired by Adams Wathan's [Fixed Aspect Ratio](https://tailwindcss.com/course/locking-images-to-a-fixed-aspect-ratio) 
 TailwindCSS tutorial
