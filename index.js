@@ -55,8 +55,6 @@ module.exports = function (options = {}) {
             }),
         );
 
-        console.log('aspectRatioUtilities', aspectRatioUtilities);
-
         const helper = {
             '.aspect': {
                 position: 'relative',
