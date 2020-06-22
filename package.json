@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-plugin-aspect-ratio",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Tailwind CSS plugin to preserve the aspect ratio on images",
   "main": "index.js",
   "scripts": {
