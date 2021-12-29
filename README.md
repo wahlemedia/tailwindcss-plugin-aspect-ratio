@@ -1,6 +1,10 @@
+# DEPRECATED
+
+This project has been deprecated since Tailwind now support first party [aspect ratio](https://tailwindcss.com/docs/aspect-ratio).  please consider using it instead.
+
 ## Tailwindcss Plugin: aspect ratio
 
-[![Actions Status](https://github.com/wahlemedia/tailwindcss-plugin-aspect-ratio/workflows/CI/badge.svg)](https://github.com/wahlemedia/tailwindcss-plugin-aspect-ratio/actions)
+[![Actions Status](https://github.com/wahlemedia/tailwindcss-plugin-aspect-ratio/workflows/CI/badge.svg)](https://github.com/wahlemedia/tailwindcss-plugin-aspect-ratio/actions) [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 This plugin add helper classes to keep the aspect ratio of an image.
 
